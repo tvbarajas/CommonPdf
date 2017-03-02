@@ -6,3 +6,5 @@ node_modules
 config.json
 .vscode
 typings
+components/*
+test-data/*
