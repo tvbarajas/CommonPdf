@@ -1,0 +1,3 @@
+[submodule "CommonPdfComponents"]
+	path = CommonPdfComponents
+	url = git@github.com:corymickelson/CommonPdfComponents.git
