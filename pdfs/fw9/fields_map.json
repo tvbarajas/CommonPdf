@@ -1,24 +1,117 @@
 {
-  "topmostSubform[0].Page1[0].f1_1[0]":"Name",
-  "topmostSubform[0].Page1[0].f1_2[0]":"Business name",
-  "topmostSubform[0].Page1[0].FederalClassification[0].c1_1[0]":"Individual/sole proprietor or single-member LLC",
-  "topmostSubform[0].Page1[0].FederalClassification[0].c1_1[1]":"C Corporation",
-  "topmostSubform[0].Page1[0].FederalClassification[0].c1_1[2]":"S Corporation",
-  "topmostSubform[0].Page1[0].FederalClassification[0].c1_1[3]":"Partnership",
-  "topmostSubform[0].Page1[0].FederalClassification[0].c1_1[4]":"Trust/estate",
-  "topmostSubform[0].Page1[0].FederalClassification[0].c1_1[5]":"Limited liability company",
-  "topmostSubform[0].Page1[0].FederalClassification[0].f1_3[0]":"Tax classification",
-  "topmostSubform[0].Page1[0].FederalClassification[0].c1_7[0]":"Other radio button",
-  "topmostSubform[0].Page1[0].FederalClassification[0].f1_4[0]":"Other text field",
-  "topmostSubform[0].Page1[0].Exemptions[0].f1_5[0]":"Excempt payee code",
-  "topmostSubform[0].Page1[0].Exemptions[0].f1_6[0]":"FATCA reporting code",
-  "topmostSubform[0].Page1[0].Address[0].f1_7[0]":"Address",
-  "topmostSubform[0].Page1[0].Address[0].f1_8[0]":"City, state, and ZIP code",
-  "topmostSubform[0].Page1[0].f1_9[0]":"Requester's name and address",
-  "topmostSubform[0].Page1[0].f1_10[0]":"List account numbers",
-  "topmostSubform[0].Page1[0].SSN[0].f1_11[0]":"Ssn[0]",
-  "topmostSubform[0].Page1[0].SSN[0].f1_12[0]":"Ssn[1]",
-  "topmostSubform[0].Page1[0].SSN[0].f1_13[0]":"Ssn[2]",
-  "topmostSubform[0].Page1[0].EmployerID[0].f1_14[0]":"Employer id[0]",
-  "topmostSubform[0].Page1[0].EmployerID[0].f1_15[0]":"Employer id[1]"
+  "topmostSubform[0].Page1[0].f1_1[0]": {
+    "field": "name",
+    "type": "text",
+    "value": [
+      "agent-first-name",
+      "agent-last-name"
+    ]
+  },
+  "topmostSubform[0].Page1[0].f1_2[0]": {
+    "field": "business-name",
+    "type": "text",
+    "value": [
+      "company"
+    ]
+  },
+  "topmostSubform[0].Page1[0].FederalClassification[0].c1_1[0]": {
+    "field": "individual-sole-proprietor-or-single-member-llc",
+    "type": "radio",
+    "value": false
+  },
+  "topmostSubform[0].Page1[0].FederalClassification[0].c1_1[1]": {
+    "field": "c-corporation",
+    "type": "radio",
+    "value": false
+  },
+  "topmostSubform[0].Page1[0].FederalClassification[0].c1_1[2]": {
+    "field": "s-corporation",
+    "type": "radio",
+    "value": false
+  },
+  "topmostSubform[0].Page1[0].FederalClassification[0].c1_1[3]": {
+    "field": "partnership",
+    "type": "radio",
+    "value": false
+  },
+  "topmostSubform[0].Page1[0].FederalClassification[0].c1_1[4]": {
+    "field": "trust-estate",
+    "type": "radio",
+    "value": false
+  },
+  "topmostSubform[0].Page1[0].FederalClassification[0].c1_1[5]": {
+    "field": "limited-liability-company",
+    "type": "radio",
+    "value": false
+  },
+  "topmostSubform[0].Page1[0].FederalClassification[0].f1_3[0]": {
+    "field": "tax-classification",
+    "type": "radio",
+    "value": false
+  },
+  "topmostSubform[0].Page1[0].FederalClassification[0].c1_7[0]": {
+    "field": "other-radio-button",
+    "type": "radio",
+    "value": false
+  },
+  "topmostSubform[0].Page1[0].FederalClassification[0].f1_4[0]": {
+    "field": "other-text-field",
+    "type": "text",
+    "value": []
+  },
+  "topmostSubform[0].Page1[0].Exemptions[0].f1_5[0]": {
+    "field": "excempt-payee-code",
+    "type": "text",
+    "value": []
+  },
+  "topmostSubform[0].Page1[0].Exemptions[0].f1_6[0]": {
+    "field": "fatca-reporting-code",
+    "type": "text",
+    "value": []
+  },
+  "topmostSubform[0].Page1[0].Address[0].f1_7[0]": {
+    "field": "address",
+    "type": "text",
+    "value": []
+  },
+  "topmostSubform[0].Page1[0].Address[0].f1_8[0]": {
+    "field": "city-state-and-zip-code",
+    "type": "text",
+    "value": []
+  },
+  "topmostSubform[0].Page1[0].f1_9[0]": {
+    "field": "requester's-name-and-address",
+    "type": "text",
+    "value": []
+  },
+  "topmostSubform[0].Page1[0].f1_10[0]": {
+    "field": "list-account-numbers",
+    "type": "text",
+    "value": []
+  },
+  "topmostSubform[0].Page1[0].SSN[0].f1_11[0]": {
+    "field": "ssn[0]",
+    "type": "text",
+    "value": []
+  },
+  "topmostSubform[0].Page1[0].SSN[0].f1_12[0]": {
+    "field": "ssn[1]",
+    "type": "text",
+    "value": []
+  },
+  "topmostSubform[0].Page1[0].SSN[0].f1_13[0]": {
+    "field": "ssn[2]",
+    "type": "text",
+    "value": []
+  },
+  "topmostSubform[0].Page1[0].EmployerID[0].f1_14[0]": {
+    "field": "employer-id[0]",
+    "type": "text",
+    "value": []
+  },
+  "topmostSubform[0].Page1[0].EmployerID[0].f1_15[0]": {
+    "field": "employer-id[1]",
+    "type": "text",
+    "value": []
+  }
 }

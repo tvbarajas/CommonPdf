@@ -97,7 +97,7 @@ class DataDump {
 			else {
 				let command = `pdftotext ${pdf}`
 				exec( command )
-					.then( ( err, stdin ) => {
+					.then( ( res ) => {
 
 					} )
 			}
